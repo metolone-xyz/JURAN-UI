@@ -73,7 +73,7 @@ iface = gr.Interface(
     inputs=gr.Textbox(lines=5, label="学生時代に打ち込んだこと、研究、ESを入力", placeholder="半導体の研究に打ち込んだ"),
     outputs=gr.Textbox(label="想定される質問"),
     title="JURAN🌺",
-    description="面接官モデルが回答を生成します。",
+    description="predict",
 )
 
 if __name__ == "__main__":
